@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.*
+*.local
+
+# Swiss Ephemeris data files (large binary, redistributed separately)
+tools/morinus/SWEP/Ephem/*.se1
+tools/morinus/SWEP/Ephem/*.swe
+
+# Morinus source (reference tool, not our code)
+tools/morinus/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
